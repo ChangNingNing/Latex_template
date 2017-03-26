@@ -1,0 +1,207 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+\mode<presentation> {
+	\usetheme{Warsaw}
+	\setbeamercolor{page_num_color}{fg=white,bg=blue}
+
+	\defbeamertemplate*{footline}{shadow theme}{%
+		\leavevmode%
+		\hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fil,rightskip=.3cm]{author in head/foot}%
+		    \usebeamerfont{author in head/foot}\hfill\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.4\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+		    \usebeamerfont{title in head/foot}\insertshorttitle\hfill%
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.1\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+		\hfill\insertframenumber\,/\,\inserttotalframenumber
+		\end{beamercolorbox}}%
+		\vskip0pt%
+	}
+}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{listings, lstautogobble}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{verbatim}
+
+
+%----------------------------------------------------------------------------------------
+%	LSTSETTING
+%----------------------------------------------------------------------------------------
+\lstset{language=C,
+    keywordstyle=\color{blue}, 
+    morekeywords={then},
+    numberstyle=\footnotesize,
+    basicstyle=\ttfamily\footnotesize,
+    numbers=left,
+    stepnumber=1,
+    frame=single,
+    breaklines=true,
+    tabsize=4,
+    escapeinside={(*}{*)},
+    autogobble=true
+}
+
+%----------------------------------------------------------------------------------------
+%   TITLE PAGE 
+%----------------------------------------------------------------------------------------
+
+\title[Bounding Volume Hierarchies of k-DOPs]
+{Efficient Collision Detection Using Bounding Volume Hierarchies of k-DOPs} % The short title appears at the bottom of every slide, the full title is only on the title page
+\author[James T. Klosowski]
+{   James T. Klosowski
+} % Your name
+\institute[] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+	1998 IEEE Transactions on Visualization and Computer Graphics \\ % Your institution for the title page
+ 	\bigskip Presenter: Yi-Ning Chang
+}
+\date{March 29, 2017} % Date, can be changed to a custom date
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE SETTING
+%----------------------------------------------------------------------------------------
+\begin{frame}[noframenumbering]
+    \titlepage % Print the title page as the first slide
+\end{frame}
+
+\AtBeginSection[]
+  {
+  	 \setbeamertemplate{footline}{} 
+     \begin{frame}<beamer>[noframenumbering]
+     \tableofcontents[currentsection, hideallsubsections]
+     \end{frame}
+     \setbeamertemplate{footline}{%
+		\leavevmode%
+		\hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fil,rightskip=.3cm]{author in head/foot}%
+		    \usebeamerfont{author in head/foot}\hfill\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.4\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+		    \usebeamerfont{title in head/foot}\insertshorttitle\hfill%
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.1\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+		\hfill\insertframenumber\,/\,\inserttotalframenumber
+		\end{beamercolorbox}}%
+		\vskip0pt%
+	}
+  }
+
+
+%------------------------------------------------
+% Outline
+%------------------------------------------------
+\begin{frame}
+\frametitle{Outline} % Table of contents slide, comment this block out to remove it
+\tableofcontents[hideallsubsections] % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+
+%------------------------------------------------
+% Introduction
+%------------------------------------------------
+\section{Introduction}
+    \begin{frame}
+    \frametitle{Introduction}
+    \end{frame}
+	
+	\begin{frame}
+	\frametitle{Previous Work}
+	\end{frame}
+
+%------------------------------------------------
+% BV-Tree
+%------------------------------------------------
+\section{BV-Tree}
+
+% BV-Tree
+\subsection{BV-Tree}
+	\begin{frame}
+	\frametitle{BV-Tree}
+	\end{frame}
+
+% Design Criteria
+\subsection{Design Criteria}
+	\begin{frame}
+	\frametitle{Design Criteria}
+	\end{frame}
+
+% k-DOPs
+\subsection{k-DOPs}
+	\begin{frame}
+	\frametitle{k-DOPs}
+	\end{frame}
+
+% Splitting Rule
+\subsection{Splitting Rule}
+	\begin{frame}
+	\frametitle{Splitting Rule}
+	\end{frame}
+
+%------------------------------------------------
+% Collision Detection Using BV-Tree
+%------------------------------------------------
+\section{Collision Detection}
+
+% Collision Detection Using BV-tree
+\subsection{Collision Detection Using BV-Trees}
+	\begin{frame}
+	\frametitle{Collision Detection Using BV-Trees}
+	\end{frame}
+
+% Update
+\subsection{Update}
+	\begin{frame}
+	\frametitle{Tumbling the BV-Trees}
+	\end{frame}
+
+% CD Algorithm
+\subsection{Collision Detection Algorithm}
+	\begin{frame}
+	\frametitle{Tree Traversal Algorithm}
+	\end{frame}
+
+% Depth of the Hierarchy
+\subsection{Depth of the Hierarchy}
+	\begin{frame}
+	\frametitle{Depth of the Flying Hierarchy}
+	\end{frame}
+
+% Overlap and Intersection Tests
+\subsection{Overlap and Intersection Test}
+	\begin{frame}
+	\frametitle{Overlap and Intersection Test}
+	\end{frame}
+
+%------------------------------------------------
+% Experiment
+%------------------------------------------------
+\section{Experiment}
+
+% Experiment
+\subsection{Experiment}
+	\begin{frame}
+	\frametitle{Experiment Result}
+	\end{frame}
+
+%------------------------------------------------
+% Future Work
+%------------------------------------------------
+\section{Future Work}
+
+\begin{frame}
+\frametitle{Future Work}
+\end{frame}
+
+\end{document} 
