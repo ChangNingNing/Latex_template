@@ -1,16 +1,16 @@
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{BV-Tree}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{BV-Tree}{7}{0}{2}
+\beamer@sectionintoc {2}{BV-Tree}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{BV-Tree}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Design Criteria}{8}{0}{2}
-\beamer@subsectionintoc {2}{3}{k-DOPs}{9}{0}{2}
-\beamer@subsectionintoc {2}{4}{Splitting Rule}{10}{0}{2}
-\beamer@sectionintoc {3}{Collision Detection}{11}{0}{3}
-\beamer@subsectionintoc {3}{1}{Collision Detection Using BV-Trees}{12}{0}{3}
-\beamer@subsectionintoc {3}{2}{Update}{13}{0}{3}
-\beamer@subsectionintoc {3}{3}{Collision Detection Algorithm}{14}{0}{3}
-\beamer@subsectionintoc {3}{4}{Depth of the Hierarchy}{15}{0}{3}
-\beamer@subsectionintoc {3}{5}{Overlap and Intersection Test}{16}{0}{3}
-\beamer@sectionintoc {4}{Experiment}{17}{0}{4}
-\beamer@subsectionintoc {4}{1}{Experiment}{18}{0}{4}
-\beamer@sectionintoc {5}{Future Work}{19}{0}{5}
+\beamer@subsectionintoc {2}{3}{k-DOP}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{Splitting Rule}{11}{0}{2}
+\beamer@sectionintoc {3}{Collision Detection}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Collision Detection Using BV-Trees}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Update}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Collision Detection Algorithm}{15}{0}{3}
+\beamer@subsectionintoc {3}{4}{Depth of the Hierarchy}{16}{0}{3}
+\beamer@subsectionintoc {3}{5}{Overlap and Intersection Test}{17}{0}{3}
+\beamer@sectionintoc {4}{Experiment}{18}{0}{4}
+\beamer@subsectionintoc {4}{1}{Experiment}{19}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{22}{0}{5}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.18)  26 MAR 2017 21:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.18)  28 MAR 2017 00:51
 entering extended mode
 **./BVHofKDOP.tex
 (BVHofKDOP.tex
@@ -959,39 +959,128 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [4
 
-] [5
+] (BVHofKDOP.toc) [5
 
-] (BVHofKDOP.toc) [6
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 143.
 
-] [7
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 143.
 
-] [8
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 143.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[6
+
+] <./figure/BVTrees.PNG, id=319, 573.64313pt x 597.73312pt>
+File: ./figure/BVTrees.PNG Graphic file (type png)
+
+<use ./figure/BVTrees.PNG>
+Package pdftex.def Info: ./figure/BVTrees.PNG used on input line 151.
+(pdftex.def)             Requested size: 184.3758pt x 192.1176pt.
+
+Overfull \vbox (7.94168pt too high) detected at line 151
+ []
+
+[7
+
+ <./figure/BVTrees.PNG>] [8
 
 ] [9
 
-] [10
-
 ]
-(BVHofKDOP.toc) [11
+<./figure/kDOPs.PNG, id=426, 1125.45468pt x 380.17032pt>
+File: ./figure/kDOPs.PNG Graphic file (type png)
 
-] [12
+<use ./figure/kDOPs.PNG>
+Package pdftex.def Info: ./figure/kDOPs.PNG used on input line 193.
+(pdftex.def)             Requested size: 307.28987pt x 103.79593pt.
+ [10
+
+ <./figure/kDOPs.PNG>] [11
+
+] (BVHofKDOP.toc)
+[12
 
 ] [13
 
-] [14
+] <./figure/update.PNG, id=576, 1091.57813pt x 335.00156pt>
+File: ./figure/update.PNG Graphic file (type png)
 
-] [15
+<use ./figure/update.PNG>
+Package pdftex.def Info: ./figure/update.PNG used on input line 252.
+(pdftex.def)             Requested size: 307.28987pt x 94.30585pt.
+ [14
 
-] [16
+ <./figure/update.PNG>]
+<./figure/algorithm.PNG, id=613, 591.71063pt x 466.74374pt>
+File: ./figure/algorithm.PNG Graphic file (type png)
 
-] (BVHofKDOP.toc) [17
+<use ./figure/algorithm.PNG>
+Package pdftex.def Info: ./figure/algorithm.PNG used on input line 262.
+(pdftex.def)             Requested size: 215.10196pt x 169.67278pt.
+ [15
 
-] [18
+ <./figure/algorithm.PNG>] [16
+
+] [17
 
 ]
-(BVHofKDOP.toc) [19
+(BVHofKDOP.toc) [18
 
-] [20
+] <./figure/TABLE1.PNG, id=757, 459.96844pt x 167.87718pt>
+File: ./figure/TABLE1.PNG Graphic file (type png)
+
+<use ./figure/TABLE1.PNG>
+Package pdftex.def Info: ./figure/TABLE1.PNG used on input line 290.
+(pdftex.def)             Requested size: 153.64493pt x 56.0759pt.
+
+<./figure/TABLE2.PNG, id=758, 588.69937pt x 489.32813pt>
+File: ./figure/TABLE2.PNG Graphic file (type png)
+
+<use ./figure/TABLE2.PNG>
+Package pdftex.def Info: ./figure/TABLE2.PNG used on input line 290.
+(pdftex.def)             Requested size: 153.64493pt x 127.70763pt.
+ [19
+
+ <./figure/TABLE1.PNG> <./figure/TABLE2.PNG>]
+<./figure/TABLE3.PNG, id=794, 590.205pt x 244.66406pt>
+File: ./figure/TABLE3.PNG Graphic file (type png)
+
+<use ./figure/TABLE3.PNG>
+Package pdftex.def Info: ./figure/TABLE3.PNG used on input line 298.
+(pdftex.def)             Requested size: 215.10196pt x 89.16536pt.
+ [20
+
+ <./figure/TABLE3.PNG>]
+<./figure/TABLE4.PNG, id=827, 589.4522pt x 219.82124pt>
+File: ./figure/TABLE4.PNG Graphic file (type png)
+
+<use ./figure/TABLE4.PNG>
+Package pdftex.def Info: ./figure/TABLE4.PNG used on input line 310.
+(pdftex.def)             Requested size: 215.10196pt x 80.21562pt.
+
+<./figure/TABLE5.PNG, id=828, 590.95781pt x 220.57407pt>
+File: ./figure/TABLE5.PNG Graphic file (type png)
+
+<use ./figure/TABLE5.PNG>
+Package pdftex.def Info: ./figure/TABLE5.PNG used on input line 310.
+(pdftex.def)             Requested size: 215.10196pt x 80.28503pt.
+ [21
+
+ <./figure/TABLE4.PNG> <./figure/TABLE5.PNG>]
+(BVHofKDOP.toc) [22
+
+] [23
 
 ]
 \tf@nav=\write6
@@ -1003,13 +1092,13 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 \tf@snm=\write8
 \openout8 = `BVHofKDOP.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 329.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 329.
  (BVHofKDOP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 329.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 329.
 Package rerunfilecheck Info: File `BVHofKDOP.out' has not changed.
-(rerunfilecheck)             Checksum: 75680ABB02DE2E06EE06E0BE2B0A39E4;924.
+(rerunfilecheck)             Checksum: 1DECBAFA2E4877371B32FC9C6852F98D;922.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1017,19 +1106,22 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 19882 strings out of 493334
- 370656 string characters out of 3139254
- 473499 words of memory out of 3000000
- 22918 multiletter control sequences out of 15000+200000
- 5452 words of font info for 20 fonts, out of 3000000 for 9000
+ 20098 strings out of 493334
+ 375719 string characters out of 3139254
+ 473498 words of memory out of 3000000
+ 23093 multiletter control sequences out of 15000+200000
+ 14596 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,64p,798b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on BVHofKDOP.pdf (20 pages, 199652 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on BVHofKDOP.pdf (23 pages, 1196810 bytes).
 PDF statistics:
- 822 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 963 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
