@@ -120,15 +120,15 @@
 		\item Previous work
 			\begin{itemize}
 			\item Octrees, k-d trees, BSP trees, and so on.
-			\item \it{RAPID} (Robust and Accurate Polygon Interference Detection) system based on \it{OBBTrees}.
+			\item {\it RAPID} (Robust and Accurate Polygon Interference Detection) system based on {\it OBBTrees}.
 			\end{itemize}
 	\end{itemize}
     \end{frame}
 
 %------------------------------------------------
-% BV-Tree
+% Preprocessing
 %------------------------------------------------
-\section{BV-Tree}
+\section{Preprocessing}
 
 % BV-Tree
 \subsection{BV-Tree}
@@ -138,7 +138,7 @@
 			\item $BVT(S)$: a BV-tree specifies a bounding volumn hierarchy on $S$.
 			\item Set $S$: a set of $n$ geometry triangles in 3D that specify the boundary of polygonal models.
 			\item Each node $v$ of $BVT(S)$ corresponds to a subset, $S_{v} \subseteq S$.
-			\item $b(S_{v})$: a \it{bounding volume}, associated with node $v$ of $BST(S)$, is an approximation to the set $S_{v}$ using a smallest instance of specified class of shapes.
+			\item $b(S_{v})$: a {\it bounding volume}, associated with node $v$ of $BST(S)$, is an approximation to the set $S_{v}$ using a smallest instance of specified class of shapes.
 		\end{itemize}
 	\end{frame}
 
@@ -171,16 +171,16 @@
 	\begin{frame}
 	\frametitle{k-DOP}
 		\begin{itemize}
-			\item k-dop: \it{k-discrete orientation polytope} is a convex polytope whose facets are determined by $k$ \it{fixed} orientations.
-			\item \it{6-dop}(AABB), \it{14-dop}, \it{18-dop}, \it{26-dop}
+			\item k-dop: {\it k-discrete orientation polytope} is a convex polytope whose facets are determined by $k$ {\it fixed} orientations.
+			\item {\it 6-dop}(AABB), {\it 14-dop}, {\it 18-dop}, {\it 26-dop}
 		\end{itemize}
 		\begin{center}
 			\begin{tabular}{l || c | c | c}
 					& Sphere & AABB & OBB \\
 				\hline
-				$N_{i}$ & big & median & small\\ 
+				$N_{v}$ & big & median & small\\ 
 				$C_{v}$ & $O(1)$ & $O(k)$ & $O(\log^{2}n)$\\
-				$C_{u}$ & $O(1)$ & $O(k^{2})$ & $O(1)$\\
+				$C_{u}$ & $O(1)$ & $O(n)$ & $O(1)$\\
 			\end{tabular}
 		\end{center}
 	\end{frame}
@@ -199,15 +199,15 @@
 		\begin{itemize}
 			\item Choice of Axis
 			\begin{itemize}
-				\item \it{Min Sum}: $O(k|S_{v}|)+O(k\log k)$
-				\item \it{Min Max}: $O(k|S_{v}|)+O(k\log k)$
-				\item \it{Splatter}: $O(|S_{v}|)$
-				\item \it{Longest Side}: $O(1)$
+				\item {\it Min Sum}: $O(k|S_{v}|)+O(k\log k)$
+				\item {\it Min Max}: $O(k|S_{v}|)+O(k\log k)$
+				\item {\it Splatter}: $O(|S_{v}|)$
+				\item {\it Longest Side}: $O(1)$
 			\end{itemize}
 			\item Choice of Split Point
 			\begin{itemize}
-				\item \it{median}: more balanced.
-				\item \it{mean}: less total volume while not harming the balance of the tree severely.
+				\item {\it median}: more balanced.
+				\item {\it mean}: less total volume while not harming the balance of the tree severely.
 			\end{itemize}
 		\end{itemize}
 	\end{frame}
@@ -222,10 +222,8 @@
 	\begin{frame}
 	\frametitle{Collision Detection Using BV-Trees}
 		\begin{itemize}
-			\item The method of \it{updating} the k-dops.
-			\item The \it{algorithm} for comparing two BV-trees to determine if there is a collision.
-			\item The \it{depth} of the hierarchy.
-			\item The \it{order} in testing two k-dops for interection.
+			\item The method of {\it updating} the k-dops.
+			\item The {\it algorithm} for comparing two BV-trees to determine if there is a collision.
 		\end{itemize}
 	\end{frame}
 
@@ -234,12 +232,12 @@
 	\begin{frame}
 	\frametitle{Updating the BV-Trees}
 	\begin{itemize}
-		\item \it{Hill climbing algorithm}
+		\item {\it Hill climbing algorithm}
 			\begin{itemize}
 				\item Store the boundary representation of convex hull of $S_{v}$.
-				\item $O(k^{2})$
+				\item $O(n)$
 			\end{itemize}
-		\item \it{Approximation method}
+		\item {\it Approximation method}
 			\begin{itemize}
 				\item store the boundary vertices of the k-dop $b(S_{v})$.
 				\item $O(k\log k)$
@@ -259,18 +257,6 @@
 		\centering
 		\includegraphics[width=0.7\textwidth]{./figure/algorithm.PNG}
 	\end{figure}
-	\end{frame}
-
-% Depth of the Hierarchy
-\subsection{Depth of the Hierarchy}
-	\begin{frame}
-	\frametitle{Depth of the Flying Hierarchy}
-	\end{frame}
-
-% Overlap and Intersection Tests
-\subsection{Overlap and Intersection Test}
-	\begin{frame}
-	\frametitle{Overlap and Intersection Test}
 	\end{frame}
 
 %------------------------------------------------

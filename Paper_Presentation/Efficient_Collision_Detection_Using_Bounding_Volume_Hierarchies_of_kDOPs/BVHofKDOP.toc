@@ -1,6 +1,6 @@
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{BV-Tree}{5}{0}{2}
+\beamer@sectionintoc {2}{Preprocessing}{5}{0}{2}
 \beamer@subsectionintoc {2}{1}{BV-Tree}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Design Criteria}{8}{0}{2}
 \beamer@subsectionintoc {2}{3}{k-DOP}{9}{0}{2}
@@ -9,8 +9,6 @@
 \beamer@subsectionintoc {3}{1}{Collision Detection Using BV-Trees}{13}{0}{3}
 \beamer@subsectionintoc {3}{2}{Update}{14}{0}{3}
 \beamer@subsectionintoc {3}{3}{Collision Detection Algorithm}{15}{0}{3}
-\beamer@subsectionintoc {3}{4}{Depth of the Hierarchy}{16}{0}{3}
-\beamer@subsectionintoc {3}{5}{Overlap and Intersection Test}{17}{0}{3}
-\beamer@sectionintoc {4}{Experiment}{18}{0}{4}
-\beamer@subsectionintoc {4}{1}{Experiment}{19}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{22}{0}{5}
+\beamer@sectionintoc {4}{Experiment}{16}{0}{4}
+\beamer@subsectionintoc {4}{1}{Experiment}{17}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{20}{0}{5}
