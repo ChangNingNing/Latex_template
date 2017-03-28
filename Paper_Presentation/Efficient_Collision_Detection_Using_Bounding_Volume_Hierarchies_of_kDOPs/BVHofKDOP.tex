@@ -115,8 +115,7 @@
     \begin{frame}
     \frametitle{Introduction}
 	\begin{itemize}
-		\item Collision detection is of paramount importance for many applications in computer graphics and visualization.
-		\item In this paper, author develop and analyze a method, based on bounding-volumn hierarchies, for efficient collision detection for objects moving within highly complex environments.
+		\item The author develop and analyze a method, based on bounding-volumn hierarchies, for efficient collision detection for objects moving within environments.
 		\item Previous work
 			\begin{itemize}
 			\item Octrees, k-d trees, BSP trees, and so on.
@@ -135,10 +134,10 @@
 	\begin{frame}
 	\frametitle{BV-Tree}
 		\begin{itemize}
-			\item $BVT(S)$: a BV-tree specifies a bounding volumn hierarchy on $S$.
-			\item Set $S$: a set of $n$ geometry triangles in 3D that specify the boundary of polygonal models.
+			\item $BVT(S)$: a tree structure on a set of geometric object, $S$.  All geometric objects are wrapped in bounding volumes that form the leaf nodes of the tree.
+			\item Set $S$: $n$ geometry triangles in 3D that specify the boundary of polygonal models.
 			\item Each node $v$ of $BVT(S)$ corresponds to a subset, $S_{v} \subseteq S$.
-			\item $b(S_{v})$: a {\it bounding volume}, associated with node $v$ of $BST(S)$, is an approximation to the set $S_{v}$ using a smallest instance of specified class of shapes.
+			\item $b(S_{v})$: a {\it bounding volume}, which is an approximation to the set $S_{v}$ using a specified class of shapes.
 		\end{itemize}
 	\end{frame}
 
@@ -176,11 +175,11 @@
 		\end{itemize}
 		\begin{center}
 			\begin{tabular}{l || c | c | c}
-					& Sphere & AABB & OBB \\
+					& Sphere & k-DOP & OBB \\
 				\hline
 				$N_{v}$ & big & median & small\\ 
-				$C_{v}$ & $O(1)$ & $O(k)$ & $O(\log^{2}n)$\\
-				$C_{u}$ & $O(1)$ & $O(n)$ & $O(1)$\\
+				$C_{v}$ & $O(1)$ & $O(k)$ & $O(k^2)$\\
+				$C_{u}$ & $O(1)$ & $O(n)$ & $O(k)$\\
 			\end{tabular}
 		\end{center}
 	\end{frame}
