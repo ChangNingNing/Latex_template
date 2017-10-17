@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.18)  17 OCT 2017 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.18)  17 OCT 2017 21:49
 entering extended mode
 **./TRECS.tex
 (TRECS.tex
@@ -661,7 +661,11 @@ it.sty"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\themes\color\beamercolorthemeorc
 hid.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\themes\color\beamercolorthemewha
-le.sty")) ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+le.sty")) ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty"
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen188
 \lightrulewidth=\dimen189
@@ -769,33 +773,33 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 65.
+(hyperref)                removing `\\' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 65.
+(hyperref)                removing `\\' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 65.
+(hyperref)                removing `\\' on input line 66.
 
 (TRECS.aux)
 \openout1 = `TRECS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -859,7 +863,7 @@ G,.JBIG2,.JB2,.eps]
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -869,66 +873,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count175
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (TRECS.out) (TRECS.out)
 \@outlinefile=\write5
 \openout5 = `TRECS.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 74.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 75.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 74.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 75.
+\symnumbers=\mathgroup7
+\sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 74.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 75.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 74.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 75.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 74.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 74.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 75.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 75.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 75.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 74.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 74.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 74.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 74.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 74.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 75.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 75.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-4.
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-74.
+75.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 74.
+ut line 75.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-basi
 c-dictionary\translator-basic-dictionary-English.dict"
@@ -954,17 +958,17 @@ Dictionary: translator-numbers-dictionary, Language: English
 rem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 74.
+LaTeX Info: Redefining \includegraphics on input line 75.
 \c@lstlisting=\count176
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (TRECS.nav)
-Overfull \vbox (11.12889pt too high) detected at line 81
+Overfull \vbox (11.12889pt too high) detected at line 82
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 81.
+(Font)              size <5> substituted on input line 82.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -974,17 +978,22 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (TRECS.toc) [3
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 129.
+LaTeX Font Info:    Try loading font information for U+msa on input line 130.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 129.
+LaTeX Font Info:    Try loading font information for U+msb on input line 130.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 129.
+line 130.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -992,11 +1001,11 @@ thkerncmss.
 )
 [4
 
-] <./figure/intro.PNG, id=226, 879.285pt x 423.83344pt>
+] <./figure/intro.PNG, id=234, 879.285pt x 423.83344pt>
 File: ./figure/intro.PNG Graphic file (type png)
 
 <use ./figure/intro.PNG>
-Package pdftex.def Info: ./figure/intro.PNG used on input line 144.
+Package pdftex.def Info: ./figure/intro.PNG used on input line 145.
 (pdftex.def)             Requested size: 184.3758pt x 88.87183pt.
  [5
 
@@ -1007,44 +1016,152 @@ Package pdftex.def Info: ./figure/intro.PNG used on input line 144.
 ] [8
 
 ]
-<./figure/alg1_1.PNG, id=368, 643.6547pt x 570.63188pt>
+<./figure/alg1_1.PNG, id=376, 643.6547pt x 570.63188pt>
 File: ./figure/alg1_1.PNG Graphic file (type png)
 
 <use ./figure/alg1_1.PNG>
-Package pdftex.def Info: ./figure/alg1_1.PNG used on input line 207.
+Package pdftex.def Info: ./figure/alg1_1.PNG used on input line 208.
 (pdftex.def)             Requested size: 122.91406pt x 108.96973pt.
 
-<./figure/alg1_2.PNG, id=369, 1076.52188pt x 462.22687pt>
+<./figure/alg1_2.PNG, id=377, 1076.52188pt x 462.22687pt>
 File: ./figure/alg1_2.PNG Graphic file (type png)
 
 <use ./figure/alg1_2.PNG>
-Package pdftex.def Info: ./figure/alg1_2.PNG used on input line 207.
+Package pdftex.def Info: ./figure/alg1_2.PNG used on input line 208.
 (pdftex.def)             Requested size: 184.3758pt x 79.16292pt.
  [9
 
  <./figure/alg1_1.PNG> <./figure/alg1_2.PNG>]
-<./figure/alg1_3.PNG, id=404, 542.77782pt x 391.4625pt>
+<./figure/alg1_3.PNG, id=412, 542.77782pt x 391.4625pt>
 File: ./figure/alg1_3.PNG Graphic file (type png)
 
 <use ./figure/alg1_3.PNG>
-Package pdftex.def Info: ./figure/alg1_3.PNG used on input line 219.
+Package pdftex.def Info: ./figure/alg1_3.PNG used on input line 220.
 (pdftex.def)             Requested size: 122.91406pt x 88.64272pt.
  [10
 
  <./figure/alg1_3.PNG>] [11
 
-] [12
+]
+Overfull \hbox (4.74068pt too wide) detected at line 245
+[] \OT1/cmss/m/n/10.95 = [] \OT1/mathkerncmss/m/sl/10.95 Pr\OT1/cmss/m/n/10.95 
+([])[] = [] [][] \OMS/cmsy/m/n/10.95  \OT1/cmss/m/n/10.95 1 \OMS/cmsy/m/n/10.9
+5   \OML/cmm/m/it/10.95 
+ []
 
-] (TRECS.toc)
-[13
+[12
 
-] [14
+] <./figure/alg2_1.PNG, id=513, 1044.15094pt x 386.94562pt>
+File: ./figure/alg2_1.PNG Graphic file (type png)
 
-] (TRECS.toc) [15
+<use ./figure/alg2_1.PNG>
+Package pdftex.def Info: ./figure/alg2_1.PNG used on input line 258.
+(pdftex.def)             Requested size: 215.10196pt x 79.70815pt.
+ [13
 
-] [16
+ <./figure/alg2_1.PNG>]
+<./figure/alg3_1.PNG, id=549, 544.28343pt x 247.67531pt>
+File: ./figure/alg3_1.PNG Graphic file (type png)
 
-] [17
+<use ./figure/alg3_1.PNG>
+Package pdftex.def Info: ./figure/alg3_1.PNG used on input line 276.
+(pdftex.def)             Requested size: 122.91406pt x 55.9286pt.
+
+Overfull \vbox (0.843pt too high) detected at line 276
+ []
+
+[14
+
+ <./figure/alg3_1.PNG>] (TRECS.toc) [15
+
+]
+<./figure/eva1_1.PNG, id=621, 1085.55562pt x 458.46281pt>
+File: ./figure/eva1_1.PNG Graphic file (type png)
+
+<use ./figure/eva1_1.PNG>
+Package pdftex.def Info: ./figure/eva1_1.PNG used on input line 295.
+(pdftex.def)             Requested size: 215.10196pt x 90.84447pt.
+ [16
+
+ <./figure/eva1_1.PNG>]
+<./figure/eva1_2.PNG, id=657, 1133.73563pt x 453.94594pt>
+File: ./figure/eva1_2.PNG Graphic file (type png)
+
+<use ./figure/eva1_2.PNG>
+Package pdftex.def Info: ./figure/eva1_2.PNG used on input line 307.
+(pdftex.def)             Requested size: 215.10196pt x 86.12593pt.
+
+<./figure/eva1_3.PNG, id=658, 1135.24126pt x 454.69875pt>
+File: ./figure/eva1_3.PNG Graphic file (type png)
+
+<use ./figure/eva1_3.PNG>
+Package pdftex.def Info: ./figure/eva1_3.PNG used on input line 307.
+(pdftex.def)             Requested size: 215.10196pt x 86.15082pt.
+ [17
+
+ <./figure/eva1_2.PNG> <./figure/eva1_3.PNG>]
+<./figure/eva1_4.PNG, id=694, 1129.97156pt x 454.69875pt>
+File: ./figure/eva1_4.PNG Graphic file (type png)
+
+<use ./figure/eva1_4.PNG>
+Package pdftex.def Info: ./figure/eva1_4.PNG used on input line 319.
+(pdftex.def)             Requested size: 215.10196pt x 86.55322pt.
+
+<./figure/eva1_5.PNG, id=695, 1126.2075pt x 450.9347pt>
+File: ./figure/eva1_5.PNG Graphic file (type png)
+
+<use ./figure/eva1_5.PNG>
+Package pdftex.def Info: ./figure/eva1_5.PNG used on input line 319.
+(pdftex.def)             Requested size: 215.10196pt x 86.12572pt.
+ [18
+
+ <./figure/eva1_4.PNG> <./figure/eva1_5.PNG>]
+<./figure/eva1_6.PNG, id=730, 776.9025pt x 583.42969pt>
+File: ./figure/eva1_6.PNG Graphic file (type png)
+
+<use ./figure/eva1_6.PNG>
+Package pdftex.def Info: ./figure/eva1_6.PNG used on input line 327.
+(pdftex.def)             Requested size: 215.10196pt x 161.5342pt.
+ [19
+
+ <./figure/eva1_6.PNG>]
+<./figure/eva2_1.PNG, id=765, 1114.91531pt x 450.9347pt>
+File: ./figure/eva2_1.PNG Graphic file (type png)
+
+<use ./figure/eva2_1.PNG>
+Package pdftex.def Info: ./figure/eva2_1.PNG used on input line 341.
+(pdftex.def)             Requested size: 215.10196pt x 86.99957pt.
+
+<./figure/eva2_2.PNG, id=766, 1111.90407pt x 450.18187pt>
+File: ./figure/eva2_2.PNG Graphic file (type png)
+
+<use ./figure/eva2_2.PNG>
+Package pdftex.def Info: ./figure/eva2_2.PNG used on input line 341.
+(pdftex.def)             Requested size: 215.10196pt x 87.08788pt.
+ [20
+
+ <./figure/eva2_1.PNG> <./figure/eva2_2.PNG>]
+<./figure/eva3_1.PNG, id=801, 1114.91531pt x 451.6875pt>
+File: ./figure/eva3_1.PNG Graphic file (type png)
+
+<use ./figure/eva3_1.PNG>
+Package pdftex.def Info: ./figure/eva3_1.PNG used on input line 355.
+(pdftex.def)             Requested size: 215.10196pt x 87.1448pt.
+
+<./figure/eva3_2.PNG, id=802, 1111.90407pt x 450.9347pt>
+File: ./figure/eva3_2.PNG Graphic file (type png)
+
+<use ./figure/eva3_2.PNG>
+Package pdftex.def Info: ./figure/eva3_2.PNG used on input line 355.
+(pdftex.def)             Requested size: 215.10196pt x 87.23352pt.
+ [21
+
+ <./figure/eva3_1.PNG> <./figure/eva3_2.PNG>]
+(TRECS.toc) [22
+
+] [23
+
+] [24
 
 ]
 \tf@nav=\write6
@@ -1056,13 +1173,13 @@ Package pdftex.def Info: ./figure/alg1_3.PNG used on input line 219.
 \tf@snm=\write8
 \openout8 = `TRECS.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
  (TRECS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
 Package rerunfilecheck Info: File `TRECS.out' has not changed.
-(rerunfilecheck)             Checksum: A0F2D71A90F614C5E13A7F7BF012A686;673.
+(rerunfilecheck)             Checksum: 0D176055543468024898B3479B81CF22;853.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1070,24 +1187,29 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 20072 strings out of 493334
- 375366 string characters out of 3139254
- 475499 words of memory out of 3000000
- 23082 multiletter control sequences out of 15000+200000
- 18199 words of font info for 66 fonts, out of 3000000 for 9000
+ 20202 strings out of 493334
+ 377713 string characters out of 3139254
+ 475578 words of memory out of 3000000
+ 23174 multiletter control sequences out of 15000+200000
+ 19518 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,64p,794b,687s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb>
-Output written on TRECS.pdf (17 pages, 501783 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss
+i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on TRECS.pdf (24 pages, 1576576 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 995 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

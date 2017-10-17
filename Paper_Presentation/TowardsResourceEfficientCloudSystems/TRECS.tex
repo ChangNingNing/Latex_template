@@ -22,6 +22,7 @@
 	}
 }
 
+\usepackage{mathrsfs}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx} % Allows including images
@@ -221,22 +222,136 @@
 	% Load-dependent Padding
 	\begin{frame}
 	\frametitle{Algo.2: Load-dependent Padding}
+		\begin{itemize}
+		\item Formulate the problem of padding determination to achieve both {\it resource efficient} and {\it SLO guarantee}.
+		\item The variation of prediction errors is dependent on load levels in cloud.
+		\item Use $\mathscr{P}=\{\hat{p_{1}}, \hat{p_{2}}, ..., \hat{p_{M}}\}$ ($\hat{p_{1}} < \hat{p_{2}} < ... < \hat{p_{M}}$) to represent the M different predicted demand levels.
+		\item Use $\mathscr{D}_{\hat{P_{i}}}=\{d_{1}, d_{2}, ..., d_{n_{\hat{p_{i}}}}\}$ ($d_{1} < d_{2} < ... < d_{n_{\hat{p_{i}}}},n_{\hat{p_{i}}}=\mid{\mathscr{D}_{\hat{p_{i}}}}\mid$) to indicate the demands that were predicted to be $\hat{p_{i}}$.
+		\item And $N = \sum_{j=1}^{M} n_{\hat{p_{j}}}$ is the total number of workload demands in the demand series.
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{Algo.2: Load-dependent Padding}
+		\begin{itemize}
+		\item The probability that the allocated resource ($a_{t_{i}}=\hat{p_{i}}+\delta(\hat{p_{i}})$) is sufficient to meet the demand is
+		\end{itemize}
+		\begin{equation} Pr(\hat{p_{i}})=\frac{\mid \{ d_{j}\leq\hat{p_{i}}+\delta(\hat{p_{i}}) \mid d_{j}\in \mathscr{D}_{\hat{p_{i}}} \} \mid}{n_{\hat{p_{i}}}} \end{equation}
+		\begin{equation} \bar{Pr}=\sum^{M}_{i=1}Pr(\hat{p_{i}})\frac{n_{\hat{p_{i}}}}{N}=\sum^{M}_{i=1}\frac{\mid \{ d_{j}\leq\hat{p_{i}}+\delta(\hat{p_{i}}) \mid d_{j}\in \mathscr{D}_{\hat{p_{i}}} \} \mid}{n_{\hat{p_{i}}}} \frac{n_{\hat{p_{i}}}}{N} \geq 1-\epsilon \end{equation}
+		\begin{itemize}
+		\item The expected allocated resource amount can be calculated by
+		\end{itemize}
+		\begin{equation} \sum_{\hat{p_{i}}\in\mathscr{P}}[\hat{p_{i}}+\delta(\hat{p_{i}})]\frac{n_{\hat{p_{i}}}}{N} \end{equation}
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{Algo.2: Load-dependent Padding}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/alg2_1.PNG}
+		\end{figure}
+		\begin{itemize}
+		\item Solved by an $M\times \epsilon N$ dynamics programming.
+		\item In the matrix, $\mathbb{M}(i,j)$ represents the minimum total allocated resource when distributing $j$ violations to the first $i$ predicted demand levels.
+		\item $\mathbb{M}(i,j)=min_{0<x<j}\{ \mathbb{M}(i-1,j-1)+d_{n_{\hat{p_{i}}}-x}\times n_{\hat{p_{i}}} \}$
+		\end{itemize}
 	\end{frame}
 
 	% Responsive Padding
 	\begin{frame}
 	\frametitle{Algo.3: Responsive Padding}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.4\textwidth]{./figure/alg3_1.PNG}
+		\end{figure}
+		\begin{itemize}
+		\item If the resource utilization is upper than $T_{u}$ at time $t'$, then
+		\begin{equation} a_{t'+\Delta}=a_{t'}+\frac{1}{2}(u_{max}-a_{t'}) \end{equation}
+		\item If the resource utilization is lower than $T_{l}$ after raising, then
+		\begin{equation} a_{t''+\Delta}=a_{t''}-\frac{1}{2}(a_{t''}-u_{t''}) \end{equation}
+		\item $T_{l}$, $T_{u}$ are lower and upper bound threshold.
+		\item $u_{max}$ is the maximum recorded utilization.
+		\item $\Delta$ is a monitoring interval.
+		\end{itemize}
 	\end{frame}
 
 %------------------------------------------------
-% Experiment
+% Evaluation
 %------------------------------------------------
-\section{Experiment}
+\section{Evaluation}
 
-% Experiment
-\subsection{Experiment}
+% Analytical Performance Evaluation
+\subsection{Analytical Performance Evaluation}
 	\begin{frame}
-	\frametitle{Experiment}
+	\frametitle{Performance of Burst-exclusive Prediction}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva1_1.PNG}
+		\end{figure}
+		\begin{itemize}
+		\item Average prediction error is calculated by $\frac{1}{n}\sum_{i=1}^{n}\mid \hat{p_{i}}-d_{i} \mid$
+		\item Saved resource allocation is calculated by $\frac{CloudScale-RPRP}{CloudScale}$
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{Perfornmance of Load-dependent Padding}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva1_2.PNG}
+		\end{figure}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva1_3.PNG}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{Perfornmance of Resource Provisioning}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva1_4.PNG}
+		\end{figure}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva1_5.PNG}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+	\frametitle{Perfornmance of Responsive Padding}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva1_6.PNG}
+		\end{figure}
+	\end{frame}
+
+% Trace-driven Simulation
+\subsection{Trace-driven Simulation}
+	\begin{frame}
+	\frametitle{Trace-driven Simulation}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva2_1.PNG}
+		\end{figure}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva2_2.PNG}
+		\end{figure}
+	\end{frame}
+
+% Real-World Testbed Experiments
+\subsection{Real-World Testbed Experiments}
+	\begin{frame}
+	\frametitle{Real-World Testbed Experiments}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva3_1.PNG}
+		\end{figure}
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{./figure/eva3_2.PNG}
+		\end{figure}
 	\end{frame}
 
 %------------------------------------------------
@@ -247,11 +362,20 @@
 \subsection{Conclusion}
 	\begin{frame}
 	\frametitle{Conclusion}
+		\begin{itemize}
+		\item Experimental results show that by using algo. 1 and 2, RPRP reduces 18\% of the allocated resource while reducing 30\% of the total number of SLO violations compared to CloudScale.
+		\item These reduced padding values are substantial in improving the resource utilization of a PM that hosts multiple VMs.
+		\item RPRP achives higher resource utilization, more accurate demand prediction, and fewer SLO violations than previous schemes.
+		\end{itemize}
 	\end{frame}
 
 \subsection{Future work}
 	\begin{frame}
 	\frametitle{Future Work}
+		\begin{itemize}
+		\item Use the technic mentioned in the paper and the position prediction to make a more accurate prediction in social VR.
+		\item Read the referenced paper to research more about the resource scaling method in cloud system.
+		\end{itemize}
 	\end{frame}
 
 \end{document} 
