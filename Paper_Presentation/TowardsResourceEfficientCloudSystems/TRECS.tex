@@ -253,7 +253,7 @@
 		\begin{itemize}
 		\item Solved by an $M\times \epsilon N$ dynamics programming.
 		\item In the matrix, $\mathbb{M}(i,j)$ represents the minimum total allocated resource when distributing $j$ violations to the first $i$ predicted demand levels.
-		\item $\mathbb{M}(i,j)=min_{0<x<j}\{ \mathbb{M}(i-1,j-x)+d_{n_{\hat{p_{i}}}-x}\times n_{\hat{p_{i}}} \}$
+		\item $\mathbb{M}(i,j)=min_{0\leq x\leq j}\{ \mathbb{M}(i-1,j-x)+d_{n_{\hat{p_{i}}}-x}\times n_{\hat{p_{i}}} \}$
 		\end{itemize}
 	\end{frame}
 
@@ -400,7 +400,6 @@
 	\frametitle{Conclusion}
 		\begin{itemize}
 		\item Experimental results show that by using algo. 1 and 2, RPRP reduces 18\% of the allocated resource while reducing 30\% of the total number of SLO violations compared to CloudScale.
-		\item These reduced padding values are substantial in improving the resource utilization of a PM that hosts multiple VMs.
 		\item RPRP achives higher resource utilization, more accurate demand prediction, and fewer SLO violations than previous schemes.
 		\end{itemize}
 	\end{frame}
