@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.18)  17 OCT 2017 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.18)  18 OCT 2017 14:04
 entering extended mode
 **./TRECS.tex
 (TRECS.tex
@@ -1074,94 +1074,100 @@ Overfull \vbox (0.843pt too high) detected at line 276
 
  <./figure/alg3_1.PNG>] (TRECS.toc) [15
 
+] [16
+
 ]
-<./figure/eva1_1.PNG, id=621, 1085.55562pt x 458.46281pt>
+<./figure/eva1_1.PNG, id=656, 1085.55562pt x 458.46281pt>
 File: ./figure/eva1_1.PNG Graphic file (type png)
 
 <use ./figure/eva1_1.PNG>
-Package pdftex.def Info: ./figure/eva1_1.PNG used on input line 295.
+Package pdftex.def Info: ./figure/eva1_1.PNG used on input line 309.
 (pdftex.def)             Requested size: 215.10196pt x 90.84447pt.
- [16
+ [17
 
  <./figure/eva1_1.PNG>]
-<./figure/eva1_2.PNG, id=657, 1133.73563pt x 453.94594pt>
+<./figure/eva1_2.PNG, id=691, 1133.73563pt x 453.94594pt>
 File: ./figure/eva1_2.PNG Graphic file (type png)
 
 <use ./figure/eva1_2.PNG>
-Package pdftex.def Info: ./figure/eva1_2.PNG used on input line 307.
+Package pdftex.def Info: ./figure/eva1_2.PNG used on input line 321.
 (pdftex.def)             Requested size: 215.10196pt x 86.12593pt.
 
-<./figure/eva1_3.PNG, id=658, 1135.24126pt x 454.69875pt>
+<./figure/eva1_3.PNG, id=692, 1135.24126pt x 454.69875pt>
 File: ./figure/eva1_3.PNG Graphic file (type png)
 
 <use ./figure/eva1_3.PNG>
-Package pdftex.def Info: ./figure/eva1_3.PNG used on input line 307.
+Package pdftex.def Info: ./figure/eva1_3.PNG used on input line 321.
 (pdftex.def)             Requested size: 215.10196pt x 86.15082pt.
- [17
+ [18
 
  <./figure/eva1_2.PNG> <./figure/eva1_3.PNG>]
-<./figure/eva1_4.PNG, id=694, 1129.97156pt x 454.69875pt>
+<./figure/eva1_4.PNG, id=728, 1129.97156pt x 454.69875pt>
 File: ./figure/eva1_4.PNG Graphic file (type png)
 
 <use ./figure/eva1_4.PNG>
-Package pdftex.def Info: ./figure/eva1_4.PNG used on input line 319.
+Package pdftex.def Info: ./figure/eva1_4.PNG used on input line 333.
 (pdftex.def)             Requested size: 215.10196pt x 86.55322pt.
 
-<./figure/eva1_5.PNG, id=695, 1126.2075pt x 450.9347pt>
+<./figure/eva1_5.PNG, id=729, 1126.2075pt x 450.9347pt>
 File: ./figure/eva1_5.PNG Graphic file (type png)
 
 <use ./figure/eva1_5.PNG>
-Package pdftex.def Info: ./figure/eva1_5.PNG used on input line 319.
+Package pdftex.def Info: ./figure/eva1_5.PNG used on input line 333.
 (pdftex.def)             Requested size: 215.10196pt x 86.12572pt.
- [18
+ [19
 
  <./figure/eva1_4.PNG> <./figure/eva1_5.PNG>]
-<./figure/eva1_6.PNG, id=730, 776.9025pt x 583.42969pt>
+<./figure/eva1_6.PNG, id=765, 776.9025pt x 583.42969pt>
 File: ./figure/eva1_6.PNG Graphic file (type png)
 
 <use ./figure/eva1_6.PNG>
-Package pdftex.def Info: ./figure/eva1_6.PNG used on input line 327.
-(pdftex.def)             Requested size: 215.10196pt x 161.5342pt.
- [19
+Package pdftex.def Info: ./figure/eva1_6.PNG used on input line 345.
+(pdftex.def)             Requested size: 153.64493pt x 115.37521pt.
+ [20
 
- <./figure/eva1_6.PNG>]
-<./figure/eva2_1.PNG, id=765, 1114.91531pt x 450.9347pt>
+ <./figure/eva1_6.PNG>] [21
+
+]
+<./figure/eva2_1.PNG, id=832, 1114.91531pt x 450.9347pt>
 File: ./figure/eva2_1.PNG Graphic file (type png)
 
 <use ./figure/eva2_1.PNG>
-Package pdftex.def Info: ./figure/eva2_1.PNG used on input line 341.
+Package pdftex.def Info: ./figure/eva2_1.PNG used on input line 369.
 (pdftex.def)             Requested size: 215.10196pt x 86.99957pt.
 
-<./figure/eva2_2.PNG, id=766, 1111.90407pt x 450.18187pt>
+<./figure/eva2_2.PNG, id=833, 1111.90407pt x 450.18187pt>
 File: ./figure/eva2_2.PNG Graphic file (type png)
 
 <use ./figure/eva2_2.PNG>
-Package pdftex.def Info: ./figure/eva2_2.PNG used on input line 341.
+Package pdftex.def Info: ./figure/eva2_2.PNG used on input line 369.
 (pdftex.def)             Requested size: 215.10196pt x 87.08788pt.
- [20
+ [22
 
  <./figure/eva2_1.PNG> <./figure/eva2_2.PNG>]
-<./figure/eva3_1.PNG, id=801, 1114.91531pt x 451.6875pt>
+[23
+
+] <./figure/eva3_1.PNG, id=900, 1114.91531pt x 451.6875pt>
 File: ./figure/eva3_1.PNG Graphic file (type png)
 
 <use ./figure/eva3_1.PNG>
-Package pdftex.def Info: ./figure/eva3_1.PNG used on input line 355.
+Package pdftex.def Info: ./figure/eva3_1.PNG used on input line 391.
 (pdftex.def)             Requested size: 215.10196pt x 87.1448pt.
 
-<./figure/eva3_2.PNG, id=802, 1111.90407pt x 450.9347pt>
+<./figure/eva3_2.PNG, id=901, 1111.90407pt x 450.9347pt>
 File: ./figure/eva3_2.PNG Graphic file (type png)
 
 <use ./figure/eva3_2.PNG>
-Package pdftex.def Info: ./figure/eva3_2.PNG used on input line 355.
+Package pdftex.def Info: ./figure/eva3_2.PNG used on input line 391.
 (pdftex.def)             Requested size: 215.10196pt x 87.23352pt.
- [21
+ [24
 
  <./figure/eva3_1.PNG> <./figure/eva3_2.PNG>]
-(TRECS.toc) [22
+(TRECS.toc) [25
 
-] [23
+] [26
 
-] [24
+] [27
 
 ]
 \tf@nav=\write6
@@ -1173,13 +1179,13 @@ Package pdftex.def Info: ./figure/eva3_2.PNG used on input line 355.
 \tf@snm=\write8
 \openout8 = `TRECS.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
  (TRECS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
 Package rerunfilecheck Info: File `TRECS.out' has not changed.
-(rerunfilecheck)             Checksum: 0D176055543468024898B3479B81CF22;853.
+(rerunfilecheck)             Checksum: E7BCD6FA33DDBD82DF81289C63AE2DCC;853.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1187,10 +1193,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 20202 strings out of 493334
- 377713 string characters out of 3139254
+ 20214 strings out of 493334
+ 377818 string characters out of 3139254
  475578 words of memory out of 3000000
- 23174 multiletter control sequences out of 15000+200000
+ 23180 multiletter control sequences out of 15000+200000
  19518 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,64p,794b,687s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1207,9 +1213,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on TRECS.pdf (24 pages, 1576576 bytes).
+Output written on TRECS.pdf (27 pages, 1600077 bytes).
 PDF statistics:
- 995 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 1096 PDF objects out of 1200 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

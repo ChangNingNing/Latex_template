@@ -223,8 +223,8 @@
 	\begin{frame}
 	\frametitle{Algo.2: Load-dependent Padding}
 		\begin{itemize}
-		\item Formulate the problem of padding determination to achieve both {\it resource efficient} and {\it SLO guarantee}.
 		\item The variation of prediction errors is dependent on load levels in cloud.
+		\item Formulate the problem of padding determination to achieve both {\it resource efficiency} and {\it SLO guarantee}.
 		\item Use $\mathscr{P}=\{\hat{p_{1}}, \hat{p_{2}}, ..., \hat{p_{M}}\}$ ($\hat{p_{1}} < \hat{p_{2}} < ... < \hat{p_{M}}$) to represent the M different predicted demand levels.
 		\item Use $\mathscr{D}_{\hat{P_{i}}}=\{d_{1}, d_{2}, ..., d_{n_{\hat{p_{i}}}}\}$ ($d_{1} < d_{2} < ... < d_{n_{\hat{p_{i}}}},n_{\hat{p_{i}}}=\mid{\mathscr{D}_{\hat{p_{i}}}}\mid$) to indicate the demands that were predicted to be $\hat{p_{i}}$.
 		\item And $N = \sum_{j=1}^{M} n_{\hat{p_{j}}}$ is the total number of workload demands in the demand series.
@@ -253,7 +253,7 @@
 		\begin{itemize}
 		\item Solved by an $M\times \epsilon N$ dynamics programming.
 		\item In the matrix, $\mathbb{M}(i,j)$ represents the minimum total allocated resource when distributing $j$ violations to the first $i$ predicted demand levels.
-		\item $\mathbb{M}(i,j)=min_{0<x<j}\{ \mathbb{M}(i-1,j-1)+d_{n_{\hat{p_{i}}}-x}\times n_{\hat{p_{i}}} \}$
+		\item $\mathbb{M}(i,j)=min_{0<x<j}\{ \mathbb{M}(i-1,j-x)+d_{n_{\hat{p_{i}}}-x}\times n_{\hat{p_{i}}} \}$
 		\end{itemize}
 	\end{frame}
 
@@ -282,6 +282,20 @@
 
 % Analytical Performance Evaluation
 \subsection{Analytical Performance Evaluation}
+	\begin{frame}
+	\frametitle{Analytical Performance Evaluation}
+		\begin{itemize}
+		\item Use 48-hours history utilization data from each trace to predict the resource demand at every 5 minutes in the next 24 hours.
+		\item Performance evaluation
+			\begin{itemize}
+			\item Burst-exclusive Prediction
+			\item Load-dependent Padding
+			\item Resource Provisioning
+			\item Responsive Padding
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+
 	\begin{frame}
 	\frametitle{Performance of Burst-exclusive Prediction}
 		\begin{figure}[h!]
@@ -320,14 +334,28 @@
 
 	\begin{frame}
 	\frametitle{Perfornmance of Responsive Padding}
+		\begin{itemize}
+		\item RPRP's responsive padding algorithm can scale the resource cap up and down.
+		\item CloudScale scales the resource cap to and stays at a high level.
+		\end{itemize}
 		\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.7\textwidth]{./figure/eva1_6.PNG}
+		\includegraphics[width=0.5\textwidth]{./figure/eva1_6.PNG}
 		\end{figure}
 	\end{frame}
 
 % Trace-driven Simulation
 \subsection{Trace-driven Simulation}
+	\begin{frame}
+	\frametitle{Trace-driven Simulation}
+		\begin{itemize}
+		\item Evaluate the performance of {\it RPRP} in comparison with {\it SandPiper} and {\it CloudScale} on the {\it CloudSim} simulator.
+		\item {\it SandPiper} conducts VM migration from overloaded PMs based on the current VM loads.
+		\item Both {\it RPRP} and {\it CloudScale} employ resource demand prediction and conduct VM migration from PMs that are predicted to be overloaded.
+		\item In the simulation, allocate {\it 2000} VMs to {\it 1000} PMs.
+		\end{itemize}
+	\end{frame}
+
 	\begin{frame}
 	\frametitle{Trace-driven Simulation}
 		\begin{figure}[h!]
@@ -342,6 +370,14 @@
 
 % Real-World Testbed Experiments
 \subsection{Real-World Testbed Experiments}
+	\begin{frame}
+	\frametitle{Real-World Testbed Experiments}
+		\begin{itemize}
+		\item Use the experiment in real-world testbed to verify the simulation results.
+		\item In the experiment, allocate {\it 11} VMs to {\it 5} PMs.
+		\end{itemize}
+	\end{frame}
+
 	\begin{frame}
 	\frametitle{Real-World Testbed Experiments}
 		\begin{figure}[h!]
